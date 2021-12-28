@@ -1,0 +1,211 @@
+* {margin: 0%; padding: 0; font-family: sans-serif;}
+.container {display: flex;}
+.red-square {background-color: #DD4053; padding: 15px; font-size: 110%;}
+.green-square {background-color: #4AD295; padding: 15px; font-size: 110%;}
+.ru {background-color: #4AD295; padding: 3px; border-radius: 30%; color: white}
+.gray-square {background-color: #EFF3F6; padding: 15px;}
+.space-between {justify-content: space-around;}
+.space-around {justify-content: space-between;}
+.justify-center {justify-content: center;}
+.stick {width: 1px; height: 40px; background: #E2E2E2;}
+.align-items {align-items: center;}
+.phone {font-size: 200%; margin-left: 15px;}
+.ua {position: relative; left:+3px;}
+.icons {width: 140px; color:rgb(168, 168, 168); font-size: 150%;}
+.toop {margin-left: 10rem; margin-right: 10rem;}
+.line {height: 1px; background: #E2E2E2;}
+.top .middle {margin: 20px; margin-left: 15rem; margin-right: 15rem;}
+.middle div {color: #616161;}
+.fa-caret-down {margin-left: 4px; color: #C4C4C4; font-size: 60%; position: relative; top: 6px;}
+.top .image {background-image: url(../img/image.png); height: 450px; color: white; font-size: 140%; background-size: cover;}
+.image .big {font-size: 170%; text-transform: uppercase;}
+.image .frame {padding: 6px; border: 1px solid white; width: 190px; text-align: center; margin-bottom: 26px; }
+.zatem {background: linear-gradient(to top, rgba(0, 0, 0, 0.493), rgba(255, 255, 255, 0)); height: 100%;}
+.image .button {font-weight: bold; padding: 13px; background-color: rgba(255, 255, 255, 0.25); font-size: 70%; width: 200px; text-align: center; margin:8px; margin-top: 26px;}
+.zatem p {margin:8px;}
+.zatem .indent {padding: 80px;}
+.under-image {background-color: #F8F8F8; padding: 30px; padding-right: 20rem; padding-left: 20rem;}
+.under-image .big {font-size: 200%; text-transform: uppercase; width: 600px; font-weight: bold;}
+.under-image .gray {color: #969696; margin-left: 3px; margin-top: 15px; margin-bottom: 15px;}
+.under-image .gray-square {padding: 10px; padding-right: 22px; padding-left: 22px; color: white; border-radius: 2px; background-color: #BDBDBD; margin-right: 18px;}
+.consultation {color: #969696; border-radius: 2px; border: #969696 solid 1px; padding: 10px; padding-right: 22px; padding-left: 22px;}
+.under-image .circle {height: 31px; width: 31px; border: 1px dashed #969696; border-radius: 100%; color: #969696; font-size: 105%; margin-bottom: 20px;}
+.under-image .text {text-transform: uppercase; color: #3D3D3D; margin-left: 7px; padding-top: 8px;}
+.two-line {width: 480px; height: 1px; background: #C4C4C4;}
+.hotels .top {margin-left: 5rem; margin-right: 5rem; width: 265px;}
+.hotels .big {font-size: 200%; text-transform: uppercase; margin: 5px;}
+.hotels .menu .margin {margin: 26px;}
+.hotels .menu {margin-top: 8rem;}
+.arrow {border: 1px solid #969696; border-radius: 100%; color: #969696; height: 50px; width: 50px; font-size: 190%; margin: 5px;}
+.hotels .photos .image-one {background-image: url(../img/1image.png); height: 450px; color: white; font-size: 140%; background-size: cover; margin-right: 7rem; width: 100%;}
+.hotels .photos .image-two {background-image: url(../img/2image.png); height: 450px; color: white; font-size: 140%; background-size: cover; margin-right: 7rem; width: 100%;}
+.hotels .photos .image-three {background-image: url(../img/3image.png); height: 450px; color: white; font-size: 140%; background-size: cover; width: 100%;}
+.zatem .fa-star {color: #FFD600; margin: 3px; font-size: 85%;}
+.column {flex-direction: column;}
+.hotels {background-color: white;}
+.hotels .photos {text-transform: uppercase;}
+.photos .zatem {height: 92%;}
+.photos .conta {background-color: rgba(0, 0, 0, 0.384); padding: 4px; width: 220px; font-size: 70%; text-transform: none; margin-top: 12px;}
+.tour .menu .margin {margin: 26px;}
+.tour .menu {margin-top: 8rem;}
+.tour .big {font-size: 200%; text-transform: uppercase; margin: 5px;}
+.tour .photos .box {background: #F8F8F8;}
+.tour .image-one {background-image: url(../img/4image.png); background-size: cover; height: 300px; width: 400px}
+.tour .image-two {background-image: url(../img/5image.png); background-size: cover; height: 300px; width: 400px}
+.tour .image-three {background-image: url(../img/6image.png); background-size: cover; height: 300px; width: 400px}
+.tour .photos .text {background-color: rgba(0, 0, 0, 0.384); padding: 6px; width: 150px; font-size: 80%; text-transform: none; position:relative; top:+12px; color: white;}
+.tour .photos .big {font-size: 140%; margin: 15px; width: 360px;}
+.photos .box .gray {color: #848484; width: 300px; margin-left: 13px;}
+.three-line {width: 270px; height: 1px; background-color: #E8E8E8; margin: 10px; margin-left: auto; margin-right: auto;}
+.red-cost {color: #DD4053; font-size: 110%; align-items: flex-end}
+.red-cost p {margin-right: 8px;}
+.red-cost .bigg {font-size: 150%; position: relative; top: 3px;}
+.tour .lite-gray {color: #C9C9C9; font-size: 80%; margin-top: 2px; padding-bottom: 16px;}
+.tour .photos .right {font-size: 80%}
+.tour .arrow {margin-right: 3rem;}
+.align-start {align-items: flex-start}
+.box {margin-right: 3rem;}
+.select {height: 130%; font-size: 110%; color: #22222266; border-radius: 0%; border: #2e2e2e38 solid 1px; margin: 0px; background-color: #ffffff;} 
+.registration i {margin-right: 7px;}
+.registration {color: #969696; margin-left: auto; margin-right: auto; margin-top: 60px; position: relative; left: -23px; margin-bottom: 8rem;}
+.registration .line {height: 6px; width: 1300px; background-color: #969696}
+.registration .down {background-color: #F8F8F8; width: 1300px; padding-top: 22px; padding-bottom: 45px;}
+.news .menu .margin {margin: 26px;}
+.news .big {font-size: 200%; text-transform: uppercase; margin: 5px;}
+.news {background-color: #F8F8F8; padding-bottom: 150px; padding-top: 30px}
+.news .gray {color: #BBBBBB; margin: 5px; margin-left: 0px;}
+.news .gray i {margin-right: 6px;}
+.news .text {font-size: 120%; width: 240px; margin-bottom: 21px;}
+.news a {color: #232323; transition: transform .05s ease .02s, z-index .01s, .3s linear; font-weight: 700;}
+.news a:hover {color: #DD4053}
+.news .box {margin-right: 12px; margin-left: 12px;}
+.news .arrow {margin-right: 3rem; margin-left: 3rem;}
+.blog .menu .margin {margin: 26px;}
+.blog .big {font-size: 200%; text-transform: uppercase; margin: 5px;}
+.justify-end {justify-content: flex-end;}
+.blog .box {box-shadow: 0 0 15px rgba(0, 0, 0, 0.11); padding: 15px;}
+.blog .gray {color: #BBBBBB; margin: 5px; margin-left: 0px; font-size: 90%;}
+.blog .gray i {margin-right: 6px;}
+.blog .text {font-size: 120%; width: 240px; margin-bottom: 21px;}
+.blog a {color: #232323; transition: transform .05s ease .02s, z-index .01s, .3s linear; font-weight: 700;}
+.blog a:hover {color: #DD4053}
+.blog .arrow {margin-bottom: 26px; margin-right: 3rem;}
+.blog {margin-top: 50px; margin-bottom: 8rem;}
+.subscribe {background-color: #DD4053; padding-top: 50px; padding-bottom: 50px; color: white;}
+.subscribe .big {font-size: 200%;}
+.subscribe .text {width: 350px; line-height:150%; margin-bottom: 30px; font-size: 110%;}
+.subscribe input {font-size: 130%; background-color: #FFFFFF33; border-radius: 0; border: white solid 1px; color: white; padding: 12px; width: 400px;}
+.subscribe .button {color: #DA2032; background-color: white; padding: 12px; padding-right: 40px; font-size: 120%; padding-left: 40px; font-weight: 600;}
+.subscribe .box {width: 1200px;}
+.map {position: absolute; top: 3920px; z-index: 1;}
+.about-us {z-index: 2;}
+.about-us .big {font-size: 200%; text-transform: uppercase; margin: 5px; margin-bottom: 2rem; margin-top: 8rem; width: 1100px;}
+.about-us .box {margin-right: 4rem; margin-bottom: 2rem; width: 400px; background-color: white; box-shadow: 0 0 15px rgba(0, 0, 0, 0.11); padding: 32px; padding-left: 45px; padding-right: 45px; display: flex; font-size: 110%}
+.about-us .box i {margin-left: 20px; font-size: 200%; color: #C6C6C6}
+.about-us .first-box {margin-bottom: 2rem; box-shadow: 0 0 15px rgba(0, 0, 0, 0.11); margin-right: 4rem; width: 394px; background-color: white; padding: 32px; padding-left: 45px; padding-right: 45px; display: flex; font-size: 110%;}
+.about-us .red-line {background-color: #DD4053; width: 6px; height: 142px;}
+.about-us .first-box i {margin-left: 20px; font-size: 200%; color: #DD4053}
+.middle-image {background-image: url(../img/15image.png); height: 560px; color: white; font-size: 140%; background-size: cover;}
+.plane {z-index: 2; position: absolute; top: 2890px; margin-left: 300px;}
+.middle-image .big {font-size: 200%; text-transform: uppercase; width: 700px; margin-bottom: 40px; margin-top: 140px;}
+.middle-image .button {color: #969696; background-color: white; padding: 16px; padding-right: 23px; font-size: 80%; padding-left: 23px; font-weight: 600; width: 200px; margin-top: 50px;}
+.offer {margin-top: 46px}
+.middle-image {margin-top: 8rem}
+.fine-font {font-family: Mistral; color: #BBBBBB; font-size: 200%; margin-bottom: 7px;}
+.provide .red {color:#DD4053}
+.provide .big {font-size: 200%; text-transform: uppercase; margin-right: 13rem;}
+.provide .box {background-color: #F8F8F8; padding: 20px; width: 180px; height: 120px; margin-top: 80px}
+.provide .button {color: #969696; border-radius: 2px; border: 1px solid #969696; padding: 13px; width: 160px; margin-top: 10px}
+.align-end {align-items: flex-end;}
+.provide .flag {position: relative; top: 25px}
+.provide .text {font-size: 135%; text-transform: uppercase; position: relative; left: 50px}
+.provide .first-right {font-size: 130%;}
+.provide .bottom .left b {color: #DD4053; font-weight: normal; text-decoration: underline;}
+.provide .bottom .left {width: 400px; font-size: 110%; margin-right: 120px;}
+.provide .bottom .right {font-size: 130%; width: 500px; border: 1px solid #C4C4C4; padding: 16px}
+.bottom {margin-top: 3rem}
+.line-one p {position: relative; top: 44px; left: -20px}
+.line-one {margin-left: 800px}
+.line-two p {position: relative; left: 80px}
+.line-two {position: absolute; top: 5650px;}
+.line-three p {margin-left: 0px;}
+.line-three {position: relative; top: -40px}
+.concierge {background-color: #F8F8F8;}
+.concierge .big {font-size: 200%; text-transform: uppercase; width: 700px;}
+.concierge .line {margin-top: 30px; margin-bottom: 30px;}
+.concierge .text {color: #656565; width: 250px; line-height: 160%}
+.concierge .images .fine-font {color: rgb(255, 255, 255); position:relative; font-size: 140%; transform: rotate(-30deg); top: -490px; left: 255px}
+.concierge {padding-top: 6rem;}
+.concierge .medium {font-size: 120%; text-transform: uppercase; width: 400px; margin-right: 700px; margin-bottom: 2rem;}
+.concierge .top .left {margin-right: 40px;}
+.concierge .number {color: #96969680; margin-right: 2rem;}
+.concierge .red-line {background-color: #DD4053; width: 470px; height: 4px;}
+.concierge .box {width: 470px; padding: 20px; font-size: 110%;}
+.concierge .grey-line {background-color: #E3E3E3; width: 470px; height: 1px;}
+.line-four {position: absolute; top: 6500px;}
+.specialist-image {background-image: url(../img/17image.png); height: 560px; color: white; font-size: 140%; background-size: cover;}
+.concierge .specialist-image .text {color: #ffffff; width: 500px; line-height: 140%; margin-top: 2rem;}
+.oklik {width: 40px; height: 170px; position:relative; top: 10px; left: 6px;}
+.concierge .specialist-image .box {background-color: #FFFFFF26; font-size: 95%; line-height: 140%; padding:20px; width: 250px;}
+.concierge .specialist-image input {margin-top: 4px; width: 250px; border: 1px solid white; border-radius: 2px; margin-right: 2rem; background-color: rgba(0, 0, 0, 0.199); color: white; font-size: 110%; padding: 10px;}
+.concierge .specialist-image .align-end p {font-size: 80%; margin-top: 3rem;}
+.concierge .specialist-image .button {width: 170px; color: #969696; border: 1px solid #969696; border-radius: 2px; height:50px; background-color: white; font-size: 85%;}
+.concierge .specialist-image {margin-top: 3rem}
+.numbers .big {font-size: 300%;}
+.numbers .box {width: 240px; margin-right: 3rem; margin-top: 3rem}
+.numbers .top .big {font-size: 200%; text-transform: uppercase; width: 180px;}
+.numbers .top b {color: #DD4053; font-weight: 100;}
+.numbers .top .text {color: #898989; width: 160px; line-height: 140%; font-size: 110%; margin-top: 2rem;}
+.numbers .top .right-arrow {width: 40px; height: 80px; margin-top: 1rem; margin-right: 4rem}
+.numbers {margin-top: 6rem}
+.numbers .line {margin-top:1rem; margin-bottom: 1rem;}
+.numbers .box .text {color: #656565; font-size: 90%; line-height: 140%;}
+.numbers {margin-bottom: 4rem}
+.point-one {position: absolute; top: 8000px}
+.point-two {position: absolute; top: 8500px}
+.partners .big {font-size: 200%; text-transform: uppercase; width: 270px;}
+.partners .text {margin-left: 12rem; width: 400px; margin-bottom: 2rem; line-height: 140%; color: #656565;}
+.partners {padding-top: 4rem; padding-bottom: 4rem; background-color: #F8F8F8;}
+.partners .box {width: 160px; height: 160px; background-color: white; margin: 0; border-right: 1px solid #C4C4C480;}
+.partners .arrow {margin: 2rem;}
+.agency .big {font-size: 200%; text-transform: uppercase; width: 600px; margin-bottom: 3rem; margin-left: 4rem;}
+.agency .text {line-height: 140%; color: #656565; width: 470px; font-size: 110%; margin-left: 4rem;}
+.agency .button p {text-transform: uppercase; font-size: 120%;}
+.agency {margin-top: 4rem;} 
+.agency .button {margin-top: 3rem; margin-bottom: 3rem;}
+.agency .button button {background-color: white; border: 1px solid #969696; color: #969696; padding: 12px; padding-left: 22px; padding-right: 22px;font-size: 110%; margin-left: 8rem;}
+.agency .bottom .box .text {color: #848484; width: 300px; line-height: 140%; margin: 0; margin-top: 1rem; font-size: 110%;}
+.agency .bottom .box {background-color: #F8F8F8; margin: 0; border-right: 1px solid #E3E3E3; border-bottom: 1px solid #E3E3E3; padding: 30px; height: 200px;}
+.agency .bottom .box .big {text-transform:none; font-size: 140%; margin: 0; width: 280px;}
+.agency .bottom .box .justify-end {color: #717171;}
+.agency .bottom {margin: 0;}
+.travel {background-image: url(../img/20image.png); height: 460px; color: white; font-size: 140%; background-size: cover; margin-top: 6rem;}
+.travel .big {font-size: 200%; text-transform: uppercase; width: 700px; position: relative; top: -113px}
+.travel img {position:relative; left: -30px;}
+.approach {z-index: 2; padding: 20px; background-color: white; box-shadow: 0 0 15px rgba(0, 0, 0, 0.11); color: black; font-size: 100%; position: relative; top: -150px; width: 940px;}
+.approach p {width:360px; line-height: 140%;}
+.approach .round {color: #969696; border: 1px dashed #969696; border-radius: 100%; width: 42px; height: 42px; font-size: 120%; margin-right: 1rem;}
+.approach .box {margin: 2rem;}
+.most-bottom {background: linear-gradient(180deg, #F8F8F8 -12.15%, #E8E8E8 100%);}
+.most-bottom .gmail {padding-top: 50px; padding-bottom: 50px;}
+.most-bottom .gmail .big {font-size: 200%;}
+.most-bottom .gmail .text {width: 350px; line-height:150%; margin-bottom: 30px; font-size: 110%;}
+.most-bottom .gmail input {font-size: 130%; background-color: #FFFFFF33; border-radius: 0; border: 1px solid #C4C4C4; color: white; padding: 12px; width: 400px; color: #969696;}
+.most-bottom .gmail .button {color: white; background-color: #DD4053; padding: 12px; padding-right: 40px; font-size: 120%; padding-left: 40px; font-weight: 600;}
+.most-bottom .gmail .box {width: 1200px;}
+.most-bottom .line {background: #1D1D1D33; width: 1100px; height: 1px;}
+.most-bottom .contacts div {margin-right: 4rem}
+.most-bottom .contacts .logo {margin-right: 12rem;}
+.most-bottom .contacts {margin-top: 6rem; margin-bottom: 2rem;}
+.most-bottom .contacts .gray {color: #3E3E3E80; margin-top: 5px; margin-bottom: 5px; font-size: 80%;}
+.most-bottom .mega-bottom {padding-top: 5rem; padding-bottom: 1rem;}
+.most-bottom .mega-bottom .gray {color: #3E3E3E80; margin-right: 37rem;}
+.most-bottom .mega-bottom .icons {color: #6e6e6e;}
+.bodyy {width: 1900px; background-color: white;}
+body {background-color: rgb(235, 235, 235);}
+.kosovo {position: absolute; top: 9300px;}
+.mask-two {position: absolute; top: 8500px; z-index: 2;}
+.mask-two img {width: 1900px}
+.top .middle a {color: #616161;}
+.rred-line {height: 3px;background-color: #DD4053; position: relative; top: 20px; width: 70px;}
+.sselect {position: relative; left: 7px;}

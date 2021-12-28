@@ -1,0 +1,58 @@
+* {margin: 0%; padding: 0; font-family: sans-serif;}
+.container {display: flex;}
+.red-square {background-color: #DD4053; padding: 15px; font-size: 110%;}
+.green-square {background-color: #4AD295; padding: 15px; font-size: 110%;}
+.ru {background-color: #4AD295; padding: 3px; border-radius: 30%; color: white}
+.gray-square {background-color: #EFF3F6; padding: 15px;}
+.space-between {justify-content: space-around;}
+.space-around {justify-content: space-between;}
+.justify-center {justify-content: center;}
+.stick {width: 1px; height: 40px; background: #E2E2E2;}
+.align-items {align-items: center;}
+.phone {font-size: 200%; margin-left: 15px;}
+.ua {position: relative; left:+3px;}
+.icons {width: 140px; color:rgb(168, 168, 168); font-size: 150%;}
+.toop {margin-left: 10rem; margin-right: 10rem;}
+.line {height: 1px; background: #E2E2E2;}
+.top .middle {margin: 20px; margin-left: 15rem; margin-right: 15rem;}
+.middle div {color: #616161;}
+.fa-caret-down {margin-left: 4px; color: #C4C4C4; font-size: 60%; position: relative; top: 6px;}
+.bodyy {width: 1900px; background-color: white;}
+body {background-color: rgb(235, 235, 235);}
+.faq .gray {color: #969696; margin-top: 5rem; margin-bottom: 4rem; margin-left: 12rem;}
+.faq .gray b {color: #171717;}
+.faq .big {font-size: 250%; text-transform: uppercase; width: 300px; position: relative; left: 20px; margin-bottom: 70px;}
+.image {width: 300px; height: 340px; margin-right: 6rem;}
+.red-box {padding: 6px; background-color: #DD4053; color: white; width: 20px; height: 20px; font-weight: bold; margin-right: 1rem; font-size: 125%;}
+.medium-big {font-size: 180%;}
+.gray-box {padding: 6px; background-color: #F8F8F8; color: #323232; width: 20px; height: 20px; font-weight: bold; margin-right: 1rem;font-size: 125%; }
+.faq .line {margin-top: 2rem; margin-bottom: 2rem}
+.fa-long-arrow-alt-up {font-size: 200%; color: #DD4053}
+.faq .text {color: #323232; line-height:140%; font-size: 130%; width: 1000px; margin-top: 1rem;}
+.fa-long-arrow-alt-down {font-size: 200%; color: #C6C6C6}
+.faq {margin-bottom: 6rem;}
+.contacts div {margin-right: 4rem}
+.contacts .logo {margin-right: 12rem;}
+.contacts {margin-top: 1rem; margin-bottom: 2rem;}
+.column {flex-direction: column;}
+.contacts .gray {color: #3E3E3E80; margin-top: 5px; margin-bottom: 5px; font-size: 80%;}
+.mega-bottom { padding-bottom: 1rem;}
+.mega-bottom .gray {color: #3E3E3E80; margin-right: 37rem;}
+.mega-bottom .icons {color: #6e6e6e;}
+.two-line {height: 1px; background: #E2E2E2; width: 1200px; margin-bottom: 1rem;}
+.bottoom {background-color: #F8F8F8; padding-top: 2rem;}
+.red-line {height: 3px;background-color: #DD4053; position: relative; top: 20px; width: 80px}
+.select {position: relative; left: 5px;}
+a {color: #616161;}
+.big-medium {font-size: 150%; text-transform: uppercase; margin-top: 1rem; margin-bottom: 2rem;}
+.small-red-square {color: #4F4F4F; margin-bottom: 1rem}
+.small-red-square div {background-color: #DD4053; width: 10px; height: 10px; margin-right: 2rem;}
+.raspisanie {padding: 3rem; background-color: #F8F8F8; font-size: 140%; width:800px; margin-bottom: 2rem; margin-top: 2rem}
+.raspisanie .text {margin-bottom: 1rem; margin-top: 0; color: #4F4F4F; font-weight: bold; font-size: 90%;}
+.raspisanie .line {margin-bottom: 15px; margin-top: 15px;}
+.border {padding: 3rem; padding-top: 2rem; padding-bottom: 2rem; border: 1px solid #D0D0D0; width:800px;}
+.border p {color: #4F4F4F; font-size: 130%; margin-bottom: 1rem}
+.border .text {font-weight: bold; color: #323232; font-size: 130%}
+.one {color: white; background-color: #DD4053; padding: 1rem; padding-left: 3rem; padding-right: 3rem; border: none; font-weight: bold; font-size: 120%; margin-right: 3rem;}
+.two {color: #DD4053; border: #DD4053 1px solid; padding: 1rem; padding-left: 3rem; padding-right: 3rem; background-color: #ffffff; font-size: 120%; font-weight: bold;}
+.buttons {margin-top: 2rem;}
